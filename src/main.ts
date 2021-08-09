@@ -77,6 +77,7 @@ import * as Scenes_WiiBanner from './Common/NW4R/lyt/Scenes_WiiBanner';
 import * as Scenes_DiddyKongRacing from './DiddyKongRacing/scenes';
 import * as Scenes_SpongebobRevengeOfTheFlyingDutchman from "./SpongebobRevengeOfTheFlyingDutchman/scenes";
 import * as Scenes_MarioKart8Deluxe from './MarioKart8Deluxe/Scenes';
+import * as Scenes_JimmyNeutronBoyGenius from "./JimmyNeutronBoyGenius/scenes";
 
 import { DroppedFileSceneDesc, traverseFileSystemDataTransfer } from './Scenes_FileDrops';
 
@@ -169,11 +170,12 @@ const sceneGroups = [
     Scenes_Elebits.sceneGroup,
     Scenes_GTA.sceneGroup.vc,
     Scenes_GTA.sceneGroup.sa,
+    Scenes_JimmyNeutronBoyGenius.sceneGroup,
     Scenes_MarioAndSonicAtThe2012OlympicGames.sceneGroup,
     Scenes_MetroidPrime.sceneGroupMP3,
     Scenes_Psychonauts.sceneGroup,
-    Scenes_SpongebobRevengeOfTheFlyingDutchman.sceneGroup,
     Scenes_SonicColors.sceneGroup,
+    Scenes_SpongebobRevengeOfTheFlyingDutchman.sceneGroup,
     Scenes_SuperMarioOdyssey.sceneGroup,
     Scenes_SuperSmashBrosMelee.sceneGroup,
     Scenes_WiiUTransferTool.sceneGroup,
